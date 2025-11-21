@@ -1,5 +1,6 @@
 {
-  "name": "web-template",
+  "name": "rtdex",
+  "description": "Real-Time Data Explorers leveraging TRM's blockchain intelligence, Finster AI's analytics, and Senso's data capabilities",
   "version": "0.1.0",
   "private": true,
   "scripts": {
