@@ -8,7 +8,7 @@ export default function Home() {
           <Image
             className="hidden dark:block"
             src="/images/logo/logo-dark.svg"
-            alt="Mission Control"
+            alt="RTDex"
             width={200}
             height={40}
             priority
@@ -16,7 +16,7 @@ export default function Home() {
           <Image
             className="block dark:hidden"
             src="/images/logo/logo.svg"
-            alt="Mission Control"
+            alt="RTDex"
             width={200}
             height={40}
             priority
@@ -25,23 +25,28 @@ export default function Home() {
 
         <div className="flex flex-col items-center gap-6 text-center">
           <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-5xl">
-            Mission Control for AI-Assisted Software Development
+            RTDex: Real-Time Data Explorers
           </h1>
           <p className="max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-xl">
-            The first task management system built for coding agents and human
-            developers. Track tasks, attempts, and progress across human and AI
-            team members.
+            Leverage blockchain intelligence from TRM, advanced analytics from
+            Finster AI, and comprehensive data capabilities from Senso. All
+            running on Parallel's distributed compute infrastructure for
+            real-time exploration and analysis.
           </p>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <a
-            href="https://anyt.dev/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#explore"
             className="flex h-12 items-center justify-center gap-2 rounded-lg bg-zinc-900 px-8 text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
           >
-            Get Started with Anyt
+            Start Exploring
+          </a>
+          <a
+            href="#learn"
+            className="flex h-12 items-center justify-center gap-2 rounded-lg border-2 border-zinc-900 px-8 text-zinc-900 transition-colors hover:bg-zinc-100 dark:border-zinc-50 dark:text-zinc-50 dark:hover:bg-zinc-800"
+          >
+            Learn More
           </a>
         </div>
       </main>

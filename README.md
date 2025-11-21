@@ -1,31 +1,53 @@
-# Mission Control Template
+# RTDex - Real-Time Data Explorers
 
-A Next.js template for AI-assisted web development. This template is designed to be modified by AI agents based on user prompts.
+Real-Time Data Explorers leveraging TRM's blockchain intelligence, Finster AI's analytics, and Senso's data capabilities — all running on Parallel's compute infrastructure.
 
-## Current Features
+## Overview
 
-- Mission Control landing page
-- Responsive design with dark mode support
-- Custom branding (logo and favicon)
-- Built with Next.js 16, React 19, and Tailwind CSS 4
+RTDex is a modern web application that combines multiple cutting-edge data platforms to provide comprehensive real-time data exploration and analysis capabilities:
+
+- **TRM Blockchain Intelligence** - Deep blockchain monitoring and analysis
+- **Finster AI Analytics** - Advanced machine learning-powered insights
+- **Senso Data Capabilities** - Comprehensive data aggregation and processing
+- **Parallel Compute Infrastructure** - Distributed, scalable compute resources
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-## Modifying the Template
+## Available Commands
 
-This template is designed to be easily modified:
+```bash
+# Start development server
+pnpm dev
 
-- Edit `src/app/page.tsx` to modify the landing page
-- Customize styles in `src/app/globals.css`
-- Update branding in `public/images/logo/` and `public/images/favicon/`
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
+
+# Check code quality (lint and format)
+pnpm lint
+pnpm format
+
+# Type check
+pnpm typecheck
+```
+
+## Project Structure
+
+- `src/app/page.tsx` - Main landing page
+- `src/app/layout.tsx` - Root layout with metadata and font configuration
+- `src/app/globals.css` - Global styles with Tailwind CSS
+- `public/images/` - Branding assets (logos and favicons)
 
 ## Tech Stack
 
